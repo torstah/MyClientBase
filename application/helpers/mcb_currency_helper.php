@@ -14,7 +14,8 @@ function display_currency($amount) {
 
 	else {
 		
-		$amount = $amount . $CI->mdl_mcb_data->setting('currency_symbol');
+		//$amount = $amount . $CI->mdl_mcb_data->setting('currency_symbol');
+		$amount = $amount . "USA";
 
 	}
 
